@@ -1,0 +1,28 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(248, 241, 241, 0.8);
+    z-index: 1000;
+    
+  }
+  
+  .spinner {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 6s linear infinite;
+    animation-duration: 5000;
+  }
+  p{
+    color: #3498db;
+    font-size: 20px;
+  }
